@@ -3,7 +3,6 @@ const mongoose = require('mongoose')
 const bodyParser = require('body-parser')
 const cors = require('cors');
 const app = express();
-const connectDB = require('./database/db');
 
 
 const DB_URL = 'mongodb+srv://induwara:123@rocelldb.r36ws.mongodb.net/?retryWrites=true&w=majoritymongodb+srv://induwara:123@rocelldb.r36ws.mongodb.net/?retryWrites=true&w=majority';
